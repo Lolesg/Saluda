@@ -22,7 +22,12 @@ public class Saluda {
         String nombre;
         System.out.println("Introduzca su nombre");
         nombre = sc.nextLine();
-        System.out.println("Hola "+nombre);
+        
+        
+        System.out.println("Introduzca la edad");
+        int edad ;
+        edad=sc.nextInt();
+        System.out.println("Hola "+nombre+" tienes "+edad+" años");
     }
     
 }
