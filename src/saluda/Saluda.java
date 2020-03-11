@@ -19,15 +19,15 @@ public class Saluda {
     public static void main(String[] args) {
         // TODO code application logic here
         Scanner sc = new Scanner(System.in);
-        String nombre;
+        String nombre,apellidos;
         System.out.println("Introduzca su nombre");
         nombre = sc.nextLine();
-        
-        
+        System.out.println("Introduzca sus apellidos");
+        apellidos = sc.nextLine();
         System.out.println("Introduzca la edad");
         int edad ;
         edad=sc.nextInt();
-        System.out.println("Hola "+nombre+" tienes "+edad+" años");
+        System.out.println("Hola "+nombre+" "+apellidos+" tienes "+edad+" años");
     }
     
 }
